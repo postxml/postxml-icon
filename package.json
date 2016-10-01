@@ -1,0 +1,38 @@
+{
+  "name": "postxml-icon",
+  "version": "0.1.0",
+  "description": "PostXML plugin better svg icons usage",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-mocha": "^2.1.3",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.3",
+    "postxml": "^0.2.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint . && jscs ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postxml/postxml-icon.git"
+  },
+  "keywords": [
+    "html",
+    "plugin",
+    "postxml",
+    "transform"
+  ],
+  "author": {
+    "name": "alanev",
+    "email": "e@alanev.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/postxml/postxml-icon/issues"
+  },
+  "homepage": "https://github.com/postxml/postxml-icon#readme"
+}
