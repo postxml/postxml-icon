@@ -23,6 +23,26 @@
 </svg>
 ```
 
+## Example (inline)
+Sprite should be inline!
+
+### Input
+```html
+<icon class="icon" inline>name</icon>
+<svg>
+	<symbol id="icon--name">
+		<path d="0,0 100, 100"></path>
+	</symbol>
+</svg>
+```
+
+### Output
+```html
+<svg class="icon">
+	<path d="0,0 100, 100"></path>
+</svg>
+```
+
 ## Licence
 MIT
 

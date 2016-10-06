@@ -10,10 +10,17 @@ var test = function (input, output, opts) {
 };
 
 describe('postxml-icon', function () {
-	it('', function () {
+	it('add icon', function () {
 		test(
 			'<icon class="iconClass">nameOfIcon</icon>',
 			'<svg class="iconClass"><use xlink:href="#icon--nameOfIcon"/></svg>',
+			{}
+		);
+	});
+	it('add inline icon', function () {
+		test(
+			'<icon inline>nameOfIcon</icon><symbol id="icon--nameOfIcon"><path d="0,0 100, 100"></path></symbol>',
+			'<svg><path d="0,0 100, 100"/></svg><symbol id="icon--nameOfIcon"><path d="0,0 100, 100"></path></symbol>',
 			{}
 		);
 	});
