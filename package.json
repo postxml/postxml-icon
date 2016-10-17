@@ -1,6 +1,6 @@
 {
   "name": "postxml-icon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "PostXML plugin better svg icons usage",
   "main": "index.js",
   "devDependencies": {
